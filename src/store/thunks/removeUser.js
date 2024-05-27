@@ -5,7 +5,7 @@ const removeUser = createAsyncThunk('users/remove', async (user) => {
   const response = await axios.delete(`http://localhost:3005/users/${user.id}`);
 
   return response.data;
-  // return user;
+  // if action returns empty payload, return user instead of response.data
 });
 
 export { removeUser };
