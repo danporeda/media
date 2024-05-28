@@ -17,6 +17,17 @@
       "name": "Cornelius Schimmel"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": "97a4"
+    },
+    {
+      "id": "b6d4",
+      "userId": "97a4",
+      "title": "Licensed Fresh Ball"
+    }
+  ],
   "photos": []
 }
