@@ -62,5 +62,51 @@
       "title": "Bespoke Metal Computer"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "3690",
+      "albumId": "d033",
+      "url": "https://loremflickr.com/150/150/abstract?lock=7100"
+    },
+    {
+      "id": "0a54",
+      "albumId": "a4cb",
+      "url": "https://loremflickr.com/150/150/abstract?lock=21848"
+    },
+    {
+      "id": "e90e",
+      "albumId": "a4cb",
+      "url": "https://loremflickr.com/150/150/abstract?lock=58528"
+    },
+    {
+      "id": "0553",
+      "albumId": "a4cb",
+      "url": "https://loremflickr.com/150/150/abstract?lock=62020"
+    },
+    {
+      "id": "7741",
+      "albumId": "669e",
+      "url": "https://loremflickr.com/150/150/abstract?lock=90531"
+    },
+    {
+      "id": "1489",
+      "albumId": "669e",
+      "url": "https://loremflickr.com/150/150/abstract?lock=97756"
+    },
+    {
+      "id": "d548",
+      "albumId": "79ca",
+      "url": "https://loremflickr.com/150/150/abstract?lock=16806"
+    },
+    {
+      "id": "97f4",
+      "albumId": "d033",
+      "url": "https://loremflickr.com/150/150/abstract?lock=8487"
+    },
+    {
+      "id": "df20",
+      "albumId": "a4cb",
+      "url": "https://loremflickr.com/150/150/abstract?lock=81038"
+    }
+  ]
 }

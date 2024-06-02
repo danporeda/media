@@ -1,6 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { faker } from '@faker-js/faker';
 
+// FOR TESTING
 const pause = (duration) => {
   return new Promise((resolve) => {
     setTimeout(resolve, duration);
@@ -21,7 +22,7 @@ const albumsApi = createApi({
     return {
       removeAlbum: builder.mutation({
         invalidatesTags: (result, error, album) => {
-          return [{ type: 'Album', id: album.id }]
+          return [{ type: 'Album', id: album.id }];
         },
         query: (album) => {
           return {
@@ -32,7 +33,7 @@ const albumsApi = createApi({
       }),
       addAlbum: builder.mutation({
         invalidatesTags: (result, error, user) => {
-          return [{ type: 'UsersAlbums', id: user.id }]
+          return [{ type: 'UsersAlbums', id: user.id }];
         },
         query: (user) => {
           return {
