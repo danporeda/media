@@ -6,6 +6,7 @@ function PhotosListItem({ photo }) {
 
   const handleRemovePhoto = () => {
     removePhoto(photo);
+    console.log(photo);
   };
 
   return (
